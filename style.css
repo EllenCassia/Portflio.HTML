@@ -13,44 +13,39 @@ body{
     background-position: center;
     background-attachment: fixed;
     font-weight:900;
+   
 }
 header{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
     font: bolder 28px 'Bebas Neue'; 
     color: #FFD4D4;
     background-color: black;
-    justify-content: space-between;
-    padding-left: 105px;
-    padding-top: 19px;
-    padding-bottom: 10px;
-    
-}
-.titulo{
-    margin: -7px;
+    height: 100px;
 }
 ul{
-    font-size: 26px;
     display: flex;
+    font-size: 26px;
     list-style-type: none;
-    margin: 13px;
+    gap: 3em;
 }
 li:hover{
+    transition: 1s;
     color: #d12a78;
-}
-li{
-    margin-right: 74px;
 }
 .fotoPerfil{
     display: block;
-    margin: -388px 247px;
     border-radius: 190px;
 }
-p{
+div{
     font: bold 64px 'Raleway';
-    margin-top: 230px;
-    margin-left: 474px;
-    padding-left: 340px;
-    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 59px;
+    align-items: center;
+    padding: 7% 10%;
 }
 .nome{
     color: #E05443;
